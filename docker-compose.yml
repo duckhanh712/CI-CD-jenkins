@@ -1,0 +1,9 @@
+version: "3"
+services:
+  api:
+    image: "${IMAGE_BUILD}"
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000     
+

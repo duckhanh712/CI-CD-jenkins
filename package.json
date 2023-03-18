@@ -1,0 +1,27 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "tranning nodejs",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "duckhanh712",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.3",
+    "http": "0.0.1-security",
+    "nodemodule": "^0.3.0",
+    "nodemon": "^2.0.15",
+    "patch": "0.0.1"
+  },
+  "_moduleAliases": {
+    "@routes": "./routes/"
+    
+  }
+}
