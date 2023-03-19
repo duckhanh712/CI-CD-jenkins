@@ -10,7 +10,7 @@ node {
         remote.user = 'root'
         remote.allowAnyHosts = true
 
-        project = "test-jenkins"
+        project = "jenkins-example"
         dockerRepo = "duckhanh97"
         dockerFile = "Dockerfile"
         imageName = "${dockerRepo}/${project}"
