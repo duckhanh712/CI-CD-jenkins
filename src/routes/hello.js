@@ -10,4 +10,17 @@ router.post("/hello", async (req, res) => {
   return res.send(req.body);
 });
 
+router.get("/profile/:id", async (req, res) => {
+  const {id} = req.params
+
+  const user = {
+    id, 
+    author: "Khuat Duc Khanh",
+    description: 'Jenkins CI/CD',
+    github: 'duckhanh712'
+  }
+
+  return res.send(user);
+});
+
 export default router;
